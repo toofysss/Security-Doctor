@@ -1,0 +1,265 @@
+import 'package:get/get.dart';
+import 'package:get/route_manager.dart';
+
+class MyTransition extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        "ar": {
+          "0": "مرحبًا بعودتك",
+          "1": "البريد الإلكتروني",
+          "2": "كلمة المرور",
+          "3": "نسيت كلمة المرور",
+          "4": "التسجيل",
+          "5": "الرجاء الانتظار...",
+          "6": "تسجيل الدخول",
+          "7": "سجل الآن",
+          "8": "هل لديك حساب؟",
+          "9": "لم تتلق كلمة مرور لمرة واحدة بعد؟",
+          "10": "إعادة إرسال الرسالة",
+          "11": "الاسم الكامل",
+          "12": "كلمة المرور غير صحيحة",
+          "13": "التالي",
+          "14": "رجوع",
+          "15": "العنوان",
+          "16": "رقم الهاتف",
+          "17": "رقم هاتف آخر",
+          "18": "الجنس",
+          "19": "ذكر",
+          "20": "أنثى",
+          "21": "العمر",
+          "22": "هذا الحقل مطلوب",
+          "23": "ابدأ",
+          "24": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+          "25": "الإعدادات",
+          "26": "ابحث هنا....",
+          "27": "إخطار",
+          "28": "البريد الالكتروني او كلمة المرور غير صحيحة",
+          "29": "العملية ناجحة",
+          "30": "تغيير كلمة المرور",
+          "31": "كلمة المرور الجديدة",
+          "32": "أعد كتابة كلمة المرور",
+          "33": "حفظ",
+          "34": "إغلاق",
+          "35": "تحرير",
+          "36": "حذف",
+          "37": "حسنًا",
+          "38": "تأكيد الحذف",
+          "39": "الجنس",
+          "40": "ذكر",
+          "41": "أنثى",
+          "42": "الحساسية للأدوية",
+          "43": "الموقع",
+          "44": "وقت الفتح",
+          "45": "وقت الاغلاق",
+          "46": "أيام العمل",
+          "47": "ملخص",
+          "48": "التخصصات",
+          "49": "الاسم",
+          "50": "التاريخ",
+          "51": "حجز موعد",
+          "52": "لا توجد بيانات",
+          "53": "كورينت",
+          "54": "النهاية",
+          "55": "عرض الملف الشخصي",
+          "56": "مشاركة الملف الشخصي",
+          "57": "طلب التحليلات",
+          "58": "طلب العلاج",
+          "59": "القبول",
+          "60": "رفض",
+          "61": "ليس لديك إذن",
+          "62": "الكاميرا",
+          "63": "معرض",
+          "64": "رفع الصورة",
+          "65": "الرجاء التحقق من الشبكة",
+          "66": "فصيلة الدم",
+          "67": "اسم المريض",
+          "68": "الغرض المطلوب",
+          "69": "يرجى الاختيار",
+          "70": "الرقم التعريفي",
+          "71": "البريد الألكتروني غير موجود",
+          "72": "رقم الهاتف غير موجود",
+          "73": "اسم الطبيب",
+          "74": "تاريخ الانتهاء",
+          "75": "تقرير طبي",
+          "76": "الفحصوصات المطلوبة",
+          "77": "العلاج",
+          "78": "نتيجة الفحص",
+
+          // OnBoarding
+          "BoardingTitle0": "تقديم أفضل الاستشارة الطبية عبر الإنترنت",
+          "BoardingSubtitle0":
+              "نحن نقدم أفضل الاستشارة مع أفضل دكتور قريب منك في مجاله",
+          // Information
+          "S0": "المعلومات الشخصية",
+          "S1": "معلومات الاتصال",
+
+          // Settting
+          "Settting0": "الحساب الشخصي",
+          "Settting1": "الحساب الشخصي",
+          "Settting2": "اللغة",
+          "Settting3": "تغيير كلمة المرور",
+          "Settting4": "تسجيل الخروج",
+
+          // Theme
+          "Theme0": "وضع النظام",
+          "Theme1": "الوضع المظلم",
+          "Theme2": "وضع الضوء",
+
+          // Language
+          "Lang0": "لغة الجهاز",
+          "Lang1": "الإنجليزية",
+          "Lang2": "العربية",
+
+          // Administrator
+          "Administrator0": "التخصصات",
+          "Administrator1": "المستخدمون",
+          "Administrator2": "نوع المستخدمين",
+          "Administrator3": "الملفات",
+
+          // مسؤل
+          "Admin0": "الحجوزات",
+          "Admin1": "المختبرات",
+          "Admin2": "الصيدليات",
+
+          // Pharmacies
+          "Pharmacies0": "عرض",
+          "Pharmacies1": "العلاج",
+
+          // Laboratories
+          "Laboratories0": "عرض",
+          "Laboratories1": "الفحوصات الطبية",
+          "Laboratories2": "نتيجة الفحص الطبي",
+
+          // notiffication
+          "notiffication": "لديك طلب"
+        },
+        "en": {
+          "0": "Welcome Back",
+          "1": "Email",
+          "2": "Password",
+          "3": "Forget Password",
+          "4": "Sign Up",
+          "5": "Please Wait...",
+          "6": "Sign In",
+          "7": "Rigester Now",
+          "8": "Have An Account ?",
+          "9": "Haven't Received OTP Yet ?",
+          "10": "Resend Message",
+          "11": "Full Name",
+          "12": "Password Not Correct",
+          "13": "Next",
+          "14": "Back",
+          "15": "Address",
+          "16": "Phone Number",
+          "17": "Another Phone Number",
+          "18": "Gender",
+          "19": "Male",
+          "20": "Female",
+          "21": "Age",
+          "22": "This Field Is Required",
+          "23": "Get Started",
+          "24": "Email Or Password Not Correct",
+          "25": "Setting",
+          "26": "Search Here....",
+          "27": "Notification",
+          "28": "There Email Was Not Correct",
+          "29": "Operation Successfully",
+          "30": "Change Password",
+          "31": "New Password",
+          "32": "Retype Password",
+          "33": "Save",
+          "34": "Close",
+          "35": "Edit",
+          "36": "Delete",
+          "37": "Ok",
+          "38": "Confirm Delete",
+          "39": "Gender",
+          "40": "Male",
+          "41": "Female",
+          "42": "Allergy To Medication",
+          "43": "Location",
+          "44": "Time Open",
+          "45": "Time Close",
+          "46": "Work Days",
+          "47": "Abstract",
+          "48": "Specializations",
+          "49": "Name",
+          "50": "Date",
+          "51": "Appointment Booking",
+          "52": "No Data",
+          "53": "Cureent",
+          "54": "Ending",
+          "55": "View Profile",
+          "56": "Share Profile",
+          "57": "Request Analytics",
+          "58": "Request Treatment",
+          "59": "Acceptance",
+          "60": "Reject",
+          "61": "You Don't Have Permission",
+          "62": "Camera",
+          "63": "Gallery",
+          "64": "Upload Image",
+          "65": "Please Check Network",
+          "66": "Blood Group",
+          "67": "Paitent Name",
+          "68": "Required Purpose",
+          "69": "Please Choice",
+          "70": "ID Number",
+          "71": "Email Not Found",
+          "72": "Phone Number Not Found",
+          "73": "Doctor Name",
+          "74": "Date Of Close",
+          "75": "Medical Report",
+          "76": "Required Examinations",
+          "77": "Treatment",
+          "78": "Examination Result",
+          // OnBoarding
+          "BoardingTitle0": "Providing The Best Online Medical Consulation",
+          "BoardingSubtitle0":
+              "we Provide The Best Consulation With The Best Docotr Near You in His Field",
+          // Information
+          "S0": "Personal Information",
+          "S1": "Contact Information",
+
+          // Setting
+          "Settting0": "Personal Account",
+          "Settting1": "Personal Account",
+          "Settting2": "Language",
+          "Settting3": "Change Password",
+          "Settting4": "Log Out",
+
+          // Theme
+          "Theme0": "System Mode",
+          "Theme1": "Dark Mode",
+          "Theme2": "Light Mode",
+
+          // Language
+          "Lang0": "Device Language",
+          "Lang1": "English",
+          "Lang2": "Arabic",
+
+          // Administrator
+          "Administrator0": "Specializations",
+          "Administrator1": "Users",
+          "Administrator2": "Users Type",
+          "Administrator3": "Profiles",
+
+          // Admin
+          "Admin0": "Reservations",
+          "Admin1": "Laboratories",
+          "Admin2": "Pharmacies",
+
+          // Pharmacies
+          "Pharmacies0": "View",
+          "Pharmacies1": "Treatment",
+
+          // Laboratories
+          "Laboratories0": "View",
+          "Laboratories1": "Medical Examinations",
+          "Laboratories2": "Medical Examination Result",
+
+          // notiffication
+          "notiffication": "You Have Request"
+        }
+      };
+}
