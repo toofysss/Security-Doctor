@@ -6160,11 +6160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project Programing\\Project\\Security-Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\SecurityDoctor.csproj",
+      "projectUniqueName": "E:\\Project Programing\\Project\\Security_Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\SecurityDoctor.csproj",
       "projectName": "SecurityDoctor",
-      "projectPath": "E:\\Project Programing\\Project\\Security-Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\SecurityDoctor.csproj",
+      "projectPath": "E:\\Project Programing\\Project\\Security_Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\SecurityDoctor.csproj",
       "packagesPath": "C:\\Users\\meeko\\.nuget\\packages\\",
-      "outputPath": "E:\\Project Programing\\Project\\Security-Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\obj\\",
+      "outputPath": "E:\\Project Programing\\Project\\Security_Doctor\\Api\\SecurityDoctor\\SecurityDoctor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\meeko\\AppData\\Roaming\\NuGet\\NuGet.Config",
